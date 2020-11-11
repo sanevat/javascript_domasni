@@ -5,7 +5,7 @@ let name='Anna';              //String
 let phoneNumber=undefined;   //undefined
 let age=27;                 //Number
 let employeed=true;        //Boolean
-let hobby=null;           //undefined
+let hobby=null;           //null
 
 //2.Испечати ги соодветно вредностите и типот на променливите
 
