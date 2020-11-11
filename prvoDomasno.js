@@ -9,11 +9,11 @@ let hobby=null;           //null
 
 //2.Испечати ги соодветно вредностите и типот на променливите
 
-console.log( 'Типот на променливата '+ name+' e:' + typeof(name));
-console.log( 'Типот на променливата '+ phoneNumber+' e:' + typeof(phoneNumber));
-console.log( 'Типот на променливата '+ age+' e:' + typeof(age));
-console.log( 'Типот на променливата '+ employeed+' e:' + typeof(employeed));
-console.log( 'Типот на променливата '+ hobby+' e:' + typeof(hobby));
+console.log( 'Типот на променливата со вредност '+ name+' e:' + typeof(name));
+console.log( 'Типот на променливата со вредност '+ phoneNumber+' e:' + typeof(phoneNumber));
+console.log( 'Типот на променливата со вредност '+ age+' e:' + typeof(age));
+console.log( 'Типот на променливата со вредност'+ employeed+' e:' + typeof(employeed));
+console.log( 'Типот на променливата со вредност'+ hobby+' e:' + typeof(hobby));
 
 //3.Промени ја вредноста на секоја од променливите
 
