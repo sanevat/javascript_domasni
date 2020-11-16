@@ -67,13 +67,13 @@ Thomas	        68
  
 
  //4. For a given hour, print out the corresponding greeting (Good morning, Good afternoon, Good evening).
- let hour=17.32;
- if(0<hour<12){
+ let hour=23;
+ if(1<=hour && hour<=12){
   console.log('Good morning!');
  }
- else if(12<hour<17){
+ else if(12<hour && hour<=17){
     console.log('Good afternoon!');
  }
- else if(17<hour<24){
+ else if(17<hour && hour<=24){
     console.log('Good evening!');
  }
