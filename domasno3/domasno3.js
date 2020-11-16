@@ -67,13 +67,50 @@ Thomas	        68
  
 
  //4. For a given hour, print out the corresponding greeting (Good morning, Good afternoon, Good evening).
- let hour=17.32;
- if(0<hour<12){
+ let hour=23;
+ if(1<=hour && hour<=12){
   console.log('Good morning!');
  }
- else if(12<hour<17){
+ else if(12<hour && hour<=17){
     console.log('Good afternoon!');
  }
- else if(17<hour<24){
+ else if(17<hour && hour<=24){
     console.log('Good evening!');
  }
+if (thisMonth=='December'||thisMonth=='January'||thisMonth=='February'){
+    console.log('Its winter')
+}if (thisMonth=='December'||thisMonth=='January'||thisMonth=='February'){
+    console.log('Its winter')
+}
+
+
+//5. For a given day, print out whether it is a day of the work week or weekend.
+let today='Saturday';
+if(today=='Monday'|| today=='Tuesday'|| today=='Wednesday'|| today=='Thursday'|| today=='Friday'){
+console.log('Its  a day of the work week!');
+}
+else if(today=='Saturday'|| today=='Sunday'){
+    console.log('its the weekend');
+}
+else{
+    console.log('Not a day of the week!');
+}
+
+
+//6. For a given month, print out in which season it belongs.
+let thisMonth='March';
+if (thisMonth=='December'||thisMonth=='January'||thisMonth=='February'){
+    console.log('Its winter');
+}
+else if (thisMonth=='March'||thisMonth=='April'||thisMonth=='May'){
+    console.log('Its spring');
+}
+else if (thisMonth=='June'||thisMonth=='July'||thisMonth=='August'){
+    console.log('Its summer');
+}
+else if (thisMonth=='September'||thisMonth=='October'||thisMonth=='November'){
+    console.log('Its autumn');
+}
+else{
+    console.log('Not a month!');
+}
