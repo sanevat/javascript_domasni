@@ -36,11 +36,13 @@ for (let i = 0; i < students.length; i++) {
 /* 2. Loop through the students array and print:
      a. the properties of the objects.
      b. the values of the properties in the objects.*/
-for (let prop in students[0]) {
+for(i=0;i<students.length;i++){
+    for (let prop in students[i]) {
     console.log(prop);
+    }
 };
-value = students[0];
-for (let value of students) {
+for(i=0;i<students.length;i++){
+    value = students[i];
     for (let prop in value) {
         console.log(value[prop]);
     }
