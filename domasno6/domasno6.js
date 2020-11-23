@@ -108,11 +108,14 @@ let x = 15;
 let y = 2;
 console.log(Math.pow(x, y));
 // 14. Given an array loop throught it and display numbers which are divisible by 5 and if you find number greater than 150 stop the loop iteration
-array = [12, 15, 32, 42, 55, 75, 122, 132, 150, 180, 200]
+array = [12, 15, 32, 42, 55, 75, 122, 132, 150, 180, 50];
 for (i = 0; i < array.length; i++) {
     if (array[i] <= 150) {
         if (array[i] % 5 == 0) {
             console.log(array[i]);
         }
+    }
+    else{
+        break;
     }
 };
